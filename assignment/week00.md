@@ -13,10 +13,15 @@
 - [시작하세요 도커/쿠버네티스](https://product.kyobobook.co.kr/detail/S000001766450)
 
 ## 2. 모니터링 대시보드 구축
-자바 프로그램을 모니터링 할 수 있는 대시보드를 구축합니다.
-
-### 요구사항
-- Prometheus와 Grafana를 이용하여 모니터링 대시보드를 구축하세요. 이 때 로컬에 직접 설치하지 말고 도커 컨테이너를 이용하세요.
+[스프링 프로젝트](https://github.com/LandvibeDev/2024-Ass-System-Design-SummerCoding/tree/ass0)를 모니터링 할 수 있는 대시보드를 구축합니다. 위 스프링 프로젝트는 다음과 같은 API를 제공합니다.
+| URL | 기능 |
+|-----|------|
+|/     |현재 점유중인 메모리 사용량 출력|
+|/{count}     |count MB만큼 메모리 사용량 증가|
+|/clear     |전체 메모리 점유 해제|
+|/gc     |강제로 gc 수행|
+<br>
+스프링 프로젝트를 로컬pc에 git clone 후 적절하게 수정하면서 prometheus와 grafana를 이용하여 모니터링 대시보드를 구축해보세요.
 
 ### 예시
 <img width="70%" alt="image" src="https://github.com/LandvibeDev/2024-System-Design-SummerCoding/assets/86287506/e7c65a42-f398-43fa-a786-9fa58bb591fe">

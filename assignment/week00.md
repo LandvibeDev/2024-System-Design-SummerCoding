@@ -21,7 +21,7 @@
 |/clear     |전체 메모리 점유 해제|
 |/gc     |강제로 gc 수행|
 <br>
-스프링 프로젝트를 로컬pc에 git clone 후 적절하게 수정하면서 prometheus와 grafana를 이용하여 모니터링 대시보드를 구축해보세요.
+스프링 프로젝트(ass0 브랜치)를 로컬pc에 git clone 후 적절하게 수정하면서 prometheus와 grafana를 이용하여 모니터링 대시보드를 구축해보세요.
 
 ### 예시
 <img width="70%" alt="image" src="https://github.com/LandvibeDev/2024-System-Design-SummerCoding/assets/86287506/e7c65a42-f398-43fa-a786-9fa58bb591fe">

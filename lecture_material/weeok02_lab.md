@@ -518,7 +518,7 @@ OK
 (integer) 3
 
 > SORT mylist
-(error) ERR One or more scores can't be converted into double
+(error) ERR One or more scores cant be converted into double
 
 # ALPHA를 이용하여 사전순으로 정렬할 수 있다
 > SORT mylist ALPHA

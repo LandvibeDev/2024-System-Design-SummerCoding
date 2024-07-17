@@ -7,6 +7,7 @@
 - \@CacheoutLandvibe 어노테이션이 붙은 메소드는 파라미터로 넘어온 id를 기준으로 캐싱된 데이터를 삭제한다. 속성은 \@CachingLandvibe와 유사하게 구현
 - MySQL에서 가져올 정보를 redis에 캐싱하는 용도로만 개발
 - spring aop를 사용할 것
+- DB 접근 기술은 자유롭게 사용가능. 다만 JDBC template 사용 추천
 - 고민했던 부분을 블로그 포스팅으로 작성
 
 ## Hint

@@ -13,6 +13,8 @@
 - custom analzyer 생성
 - indices와 documents
 - elasticsearch 기본 명령어
+- 영화 검색엔진 구축
+- logstash를 사용하지 않고 python 스크립트로 데이터 주입하기
 - java와 elasticsearch 연동
 - mysql과 elasticsearch 검색속도 측정
 <img width="1077" alt="image" src="https://github.com/user-attachments/assets/47f8e1a4-bbd6-43d2-8229-628d10fe743e">

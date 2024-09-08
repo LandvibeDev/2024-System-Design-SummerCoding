@@ -88,7 +88,7 @@ $ wget http://media.sundog-soft.com/es/ml-latest-small.zip
 $ unzip ml-latest-small.zip
 ```
 
-```elasticsearch
+```json
 # movies 인덱스 맵핑정보 추가
 PUT /movies
 {
@@ -388,7 +388,9 @@ $ vim insert_movie.py
 import pandas as pd
 import mysql.connector
 from mysql.connector import Error
+```
 
+```python
 # CSV 파일 경로
 csv_file_path = 'path/to/movies.csv'
 
@@ -437,6 +439,9 @@ $ python3 ./insert_movie.py
 import mysql.connector
 from mysql.connector import Error
 from elasticsearch import Elasticsearch, helpers
+```
+
+```python
 
 # MySQL 데이터베이스 연결 설정
 db_config = {
@@ -490,7 +495,7 @@ if __name__ == "__main__":
     main()
 ```
 
-```bash
+```java
 @Data
 @Document(indexName = "movies")
 public class Movie {
@@ -500,11 +505,7 @@ public class Movie {
 }
 ```
 
-```bash
-
-```
-
-```bash
+```java
 spring.application.name=ass1
 spring.datasource.url=jdbc:mysql://localhost:3306/movies
 spring.datasource.username=root
@@ -525,13 +526,13 @@ q
     implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
 ```
 
-```bash
+```java
 public interface MovieRepository {
     public List<Movie> getByTitle(String title);
 }
 ```
 
-```bash
+```java
 @RequiredArgsConstructor
 @Repository
 public class MovieRDBRepository implements MovieRepository{
@@ -558,14 +559,14 @@ class MovieRowMapper implements RowMapper<Movie> {
 }
 ```
 
-```bash
+```java
 @Repository
 public interface MovieESRepository extends ElasticsearchRepository<Movie, String> {
     List<Movie> findByTitle(String title);
 }
 ```
 
-```bash
+```java
     @GetMapping("/movies/rdb/{title}")
     public List<Movie> getMoviesByTitleFromRDB(@PathVariable("title") String title){
         return movieRDBRepository.getByTitle(title);

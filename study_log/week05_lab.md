@@ -18,3 +18,5 @@
 - java와 elasticsearch 연동
 - mysql과 elasticsearch 검색속도 측정
 <img width="1077" alt="image" src="https://github.com/user-attachments/assets/47f8e1a4-bbd6-43d2-8229-628d10fe743e">
+
+[강의자료](https://github.com/LandvibeDev/2024-System-Design-SummerCoding/blob/main/lecture_material/week05_lab.md)

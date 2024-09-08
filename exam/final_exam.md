@@ -23,7 +23,7 @@
 
 ### msg 처리 서버 개발
 - kafka topic_msg 토픽으로부터 메시지를 전달받아 해당 메시지를 redis의 list에 저장
-- 127.0.0.1:8082에 구축
+- 127.0.0.1:8083에 구축
 - /api/redis로 요청이 오면 redis의 summer_coding을 모두 출력하는 페이지 반환
 #### kafka 정보
 - bootstrap.server는 127.0.0.1:10000으로 설정

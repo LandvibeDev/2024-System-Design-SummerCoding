@@ -23,3 +23,6 @@
 - [elasticsearch](https://github.com/LandvibeDev/2024-System-Design-SummerCoding/blob/main/lecture_material/week05_lab.md)
 - [nginx](https://github.com/LandvibeDev/2024-System-Design-SummerCoding/blob/main/lecture_material/week08_lab.md)
 - [kafka](https://github.com/LandvibeDev/2024-System-Design-SummerCoding/blob/main/lecture_material/week10_lab.md)
+
+## 기말고사
+[기말고사](https://github.com/LandvibeDev/2024-System-Design-SummerCoding/blob/main/exam/final_exam.md)

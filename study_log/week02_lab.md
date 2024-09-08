@@ -14,4 +14,4 @@
 - spring과 redis 연동
 - 뒷풀이
 
-[강의자료](https://github.com/LandvibeDev/2024-System-Design-SummerCoding/blob/main/lecture_material/weeok02_lab.md)
+[강의자료](https://github.com/LandvibeDev/2024-System-Design-SummerCoding/blob/main/lecture_material/week02_lab.md)

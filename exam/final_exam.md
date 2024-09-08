@@ -7,7 +7,8 @@
 ### nginx 웹서버 구축
 - 127.0.0.1:80 네트워크 사용하여 구축
 - https로 외부네트워크와 통신하도록 ssl 인증환경 구축
-- `/api`로 시작하는 url 요청들을 2대의 WAS로 부하분산
+- /api/redis로 시작하는 url 요청은 was3으로 전달
+- `/api`로 시작하는 url 요청들을 was1, was2로 부하분산
 - was1: 127.0.0.1:8081, was2: 127.0.0.1:8082
 
 ### 부하분산 WAS 동작방식
@@ -20,6 +21,7 @@
 ### msg 처리 서버 개발
 - kafka topic_msg 토픽으로부터 메시지를 전달받아 해당 메시지를 redis의 list에 저장
 - 127.0.0.1:8082에 구축
+- /api/redis로 요청이 오면 redis의 summer_coding을 모두 출력하는 페이지 반환
 #### kafka 정보
 - bootstrap.server는 127.0.0.1:10000으로 설정
 - topic 이름: topic_msg

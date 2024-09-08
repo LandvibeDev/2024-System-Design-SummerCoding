@@ -1,4 +1,7 @@
 # 기말고사
+
+![image](https://github.com/user-attachments/assets/cd3719e7-0a4d-4e42-b50d-3e4bb8d947a7)
+
 ## 목표
 - 썸머코딩 기간동안 배운 기술들에 대한 기본적인 개념과 사용법을 이해했는지 확인
 - 썸머코딩 기간동안 배운 내용을 복습

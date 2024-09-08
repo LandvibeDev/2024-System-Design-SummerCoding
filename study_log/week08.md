@@ -19,3 +19,5 @@
  <img width="1262" alt="image" src="https://github.com/user-attachments/assets/22f3349b-80b5-4592-8e27-8b2db1660659">
 <img width="709" alt="image" src="https://github.com/user-attachments/assets/29213696-da9f-4c1c-a43e-555b5cf9a6e1">
 
+[강의자료](https://github.com/LandvibeDev/2024-System-Design-SummerCoding/blob/main/lecture_material/week08_lab.md)
+
